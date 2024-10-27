@@ -225,6 +225,7 @@
 }
 #product-cards .card p{
     font-size: 12px;
+    margin-top: 5px;
     color: black;
 }
 .star i{
@@ -243,6 +244,11 @@
     float: right;
     color: black;
     cursor: pointer;
+}
+@media screen and (max-width:1000px) {
+    #product-cards .card h3{
+        font-size: 20px;
+    }
 }
 
 /* product cards */
