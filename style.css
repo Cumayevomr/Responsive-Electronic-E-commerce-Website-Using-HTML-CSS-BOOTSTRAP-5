@@ -259,6 +259,69 @@
 
 
 /* other cards */
-
+#other-cards{
+    margin-top: 30px;
+}
+#other-cards .card{
+    background-color: #a9a9a92b;
+}
+#other-cards .card h3{
+    margin-top: 30px;
+    color: black;
+    margin-left: 10px;
+    letter-spacing: 3px;
+}
+#other-cards .card h5{
+    margin-top: 15px;
+    font-weight: 100;
+    font-size: 18px;
+    color: black;
+    margin-left: 10px;
+    letter-spacing: 3px;
+    border-bottom: 2px solid black;
+    width: 250px;
+}
+#other-cards .card p{
+    margin-bottom: 10px;
+    font-weight: 100;
+    font-size: 15px;
+    color: black;
+    margin-left: 10px;
+    letter-spacing: 3px;
+}
+#other-cards .card img{
+    margin-left: 150px;
+}
+#shopnow{
+    width: 130px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    letter-spacing: 3px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+@media screen and (max-width:1000px) {
+    #other-cards .card h3{
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    #other-cards .card h5{
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    #other-cards .card p{
+        margin-top: 0px;
+    }
+    #shopnow{
+        margin-top: 0px;
+        width: 120px;
+        height: 30px;
+        font-size: 16px;
+    }
+}
 
 /* other cards */
